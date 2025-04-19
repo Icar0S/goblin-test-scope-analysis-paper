@@ -1,0 +1,59 @@
+Artefatos com mais dependencia (Por biblioteca),,,,,,,,,29/10/2024
+Artefatos com mais dependencia (Por biblioteca),Biblioteca ,ID,Numero de versões,Número de CVE (presença de CVE),Numero de CVE (Por versão),Referência,Ordem no https://mvnrepository.com/open-source/testing-frameworks,Categoria,Usad por (artefatos)
+junit,JUnit,1,32,18,18,https://mvnrepository.com/artifact/junit/junit,"#1 in MvnRepository (See Top Artifacts)
+#1 in Testing Frameworks & Tools",Testing Frameworks & Tools,131722
+org.mockito,Mockito,2,334,0,0,https://mvnrepository.com/artifact/org.mockito/mockito-core,"	#8 in MvnRepository (See Top Artifacts)
+#1 in Mocking",Mocking,32754
+org.assertj,AssertJ,3,72,0,0,https://mvnrepository.com/artifact/org.assertj/assertj-core,"#20 in MvnRepository (See Top Artifacts)
+#1 in Assertion Libraries",Assertion Libraries,18364
+org.hamcrest,Hamcrest,4,3,0,0,https://mvnrepository.com/artifact/org.hamcrest/hamcrest-all,"	#70 in MvnRepository (See Top Artifacts)
+#9 in Testing Frameworks & Tools",Testing Frameworks & Tools,8035
+org.testng,TestNG,5,88,16,16,https://mvnrepository.com/artifact/org.testng/testng,"#51 in MvnRepository (See Top Artifacts)
+#6 in Testing Frameworks & Tools",Testing Frameworks & Tools,11848
+org.junit.jupiter,JUnit Jupiter API,6,71,0,0,https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api,"	#22 in MvnRepository (See Top Artifacts)
+#3 in Testing Frameworks & Tools",Testing Frameworks & Tools,16686
+com.amazonaws,AWS Java SDK Test Utils,7,1877,0,0,https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-test-utils,"#1415 in MvnRepository (See Top Artifacts)
+#54 in Testing Frameworks & Tools",Testing Frameworks & Tools,386
+ch.qos.logback,Logback Classic,8,136,49,168,https://mvnrepository.com/artifact/ch.qos.logback/logback-classic,"#11 in MvnRepository (See Top Artifacts)
+#2 in Logging Frameworks",Mocking,28828
+org.junit.jupiter,JUnit Jupiter Engine,9,56,0,0,https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine,"#23 in MvnRepository (See Top Artifacts)
+#4 in Testing Frameworks & Tools",Testing Frameworks & Tools,16061
+software.amazon.awssdk,AWS SDK Test Utils,10,1310,0,0,https://mvnrepository.com/artifact/software.amazon.awssdk/test-utils,#14182 in MvnRepository,,30
+io.reactivex.rxjava2,RxJava,11,49,0,0,https://mvnrepository.com/artifact/io.reactivex.rxjava2/rxjava,"#143 in MvnRepository (See Top Artifacts)
+#2 in Concurrency Libraries",Concurrency Libraries,3738
+software.amazon.awssdk,AWS SDK Service Test Utils,12,1307,0,0,https://mvnrepository.com/artifact/software.amazon.awssdk/service-test-utils,#33758 in MvnRepository,,12
+org.apache.logging.log4j,Log4j Core,13,53,48,219,https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core,"#52 in MvnRepository (See Top Artifacts)
+#6 in Logging Frameworks",Logging Frameworks,11810
+org.slf4j,SLF4J Simple,14,114,0,0,https://mvnrepository.com/artifact/org.slf4j/slf4j-simple,"#24 in MvnRepository (See Top Artifacts)
+#4 in Logging Frameworks",Logging Frameworks,15847
+org.apache.logging.log4j,Log4j SLF4J Implementation,15,59,0,0,https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl,"	#69 in MvnRepository (See Top Artifacts)
+#3 in Logging Bridges",Logging Bridges,8074
+org.mockito,Mockito All,16,30,0,0,https://mvnrepository.com/artifact/org.mockito/mockito-all,"#26 in MvnRepository (See Top Artifacts)
+#2 in Mocking",Mocking,15265
+org.slf4j,SLF4J Log4j 1.2,17,112,0,0,https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12,"#21 in MvnRepository (See Top Artifacts)
+#1 in Logging Bridges",Logging Bridges,17644
+org.apache.logging.log4j,Log4j API,18,65,0,0,https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api,"	#58 in MvnRepository (See Top Artifacts)
+#7 in Logging Frameworks",Logging Frameworks,9664
+org.slf4j,JCL Over SLF4J,19,92,0,0,https://mvnrepository.com/artifact/org.slf4j/jcl-over-slf4j,"	#60 in MvnRepository (See Top Artifacts)
+#2 in Logging Bridges",Logging Bridges,9528
+org.junit.jupiter,JUnit Jupiter,20,45,0,0,https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter,"#57 in MvnRepository (See Top Artifacts)
+#8 in Testing Frameworks & Tools",Testing Frameworks & Tools,9818
+org.springframework.boot,Spring Boot Starter Test,21,227,0,0,https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test,"	#47 in MvnRepository (See Top Artifacts)
+#5 in Testing Frameworks & Tools",Testing Frameworks & Tools,13675
+org.mockito,Mockito JUnit Jupiter,22,85,0,0,https://mvnrepository.com/artifact/org.mockito/mockito-junit-jupiter,"	#121 in MvnRepository (See Top Artifacts)
+#5 in Mocking",Mocking,4468
+com.github.tomakehurst,WireMock (JRE 8),23,33,29,29,https://mvnrepository.com/artifact/com.github.tomakehurst/wiremock-jre8,#519 in MvnRepository (See Top Artifacts),,1030
+log4j,Log4j,24,14,14,68,https://mvnrepository.com/artifact/log4j/log4j,"#17 in MvnRepository (See Top Artifacts)
+#3 in Logging Frameworks",Logging Frameworks,19197
+io.projectreactor.tools,Blockhound JUnit Platform,25,10,0,0,https://mvnrepository.com/artifact/io.projectreactor.tools/blockhound-junit-platform,#28860 in MvnRepository (See Top Artifacts),,15
+io.projectreactor.tools,Blockhound,26,10,0,0,https://mvnrepository.com/artifact/io.projectreactor.tools/blockhound,	#3219 in MvnRepository (See Top Artifacts),,151
+org.junit.vintage,JUnit Vintage Engine,27,71,0,0,https://mvnrepository.com/artifact/org.junit.vintage/junit-vintage-engine,"#120 in MvnRepository (See Top Artifacts)
+#14 in Testing Frameworks & Tools",Testing Frameworks & Tools,4504
+org.hamcrest,Hamcrest Library,28,14,0,0,https://mvnrepository.com/artifact/org.hamcrest/hamcrest-library,"#82 in MvnRepository (See Top Artifacts)
+#10 in Testing Frameworks & Tools",Testing Frameworks & Tools,6817
+org.junit.jupiter,JUnit Jupiter Params,29,68,0,0,https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-params,"#83 in MvnRepository (See Top Artifacts)
+#11 in Testing Frameworks & Tools",Testing Frameworks & Tools,6666
+com.h2database,H2 Database,30,139,133,246,https://mvnrepository.com/artifact/com.h2database/h2,"#65 in MvnRepository (See Top Artifacts)
+#1 in Embedded SQL Databases",Embedded SQL Database,8908
+com.github.tomakehurst,WireMock,31,116,0,0,https://mvnrepository.com/artifact/org.wiremock/wiremock,"#2228 in MvnRepository (See Top Artifacts)
+#32 in Mocking",Mocking,229

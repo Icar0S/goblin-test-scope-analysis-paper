@@ -1,0 +1,35 @@
+Artefatos com mais dependencia,,
+Artefato,Escopo,Count
+junit:junit,test,2545580
+org.mockito:mockito-core,test,1663657
+org.assertj:assertj-core,test,1052246
+org.hamcrest:hamcrest-all,test,689310
+org.testng:testng,test,426497
+org.junit.jupiter:junit-jupiter-api,test,416869
+com.amazonaws:aws-java-sdk-test-utils,test,412692
+ch.qos.logback:logback-classic,test,410710
+org.junit.jupiter:junit-jupiter-engine,test,389903
+software.amazon.awssdk:test-utils,test,387773
+io.reactivex.rxjava2:rxjava,test,382625
+software.amazon.awssdk:service-test-utils,test,376685
+org.apache.logging.log4j:log4j-core,test,339280
+org.slf4j:slf4j-simple,test,337009
+org.apache.logging.log4j:log4j-slf4j-impl,test,318810
+org.mockito:mockito-all,test,304633
+org.slf4j:slf4j-log4j12,test,302064
+org.apache.logging.log4j:log4j-api,test,285569
+org.slf4j:jcl-over-slf4j,test,267335
+org.junit.jupiter:junit-jupiter,test,265553
+org.springframework.boot:spring-boot-starter-test,test,256668
+org.mockito:mockito-junit-jupiter,test,247675
+com.github.tomakehurst:wiremock-jre8,test,243236
+log4j:log4j,test,241592
+io.projectreactor.tools:blockhound-junit-platform,test,221848
+io.projectreactor.tools:blockhound,test,221368
+org.junit.vintage:junit-vintage-engine,test,204772
+org.hamcrest:hamcrest-library,test,203382
+org.junit.jupiter:junit-jupiter-params,test,200777
+com.h2database:h2,test,196501
+com.github.tomakehurst:wiremock,test,193850
+total de Depedências,,"27.382.526,00"
+total de Depedências (top 30 artefatos),,"14.006.469,00"
