@@ -1,7 +1,7 @@
 ![image](https://github.com/user-attachments/assets/4ccaa232-99c6-4d31-829a-3042c5af8655)
 
 
-# 📦 Mining Test-Scope Dependencies in Maven Central [ goblin-test-scope-analysis-paper ]
+# 📦 Mining Test-Scope Dependencies in Maven Central 
 
 ## 🧪 Overview and Goal
 
