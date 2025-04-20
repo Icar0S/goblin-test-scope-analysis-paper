@@ -15,16 +15,20 @@ By leveraging the [Goblin Framework](https://github.com/Goblin-Ecosystem/goblinD
 
 This study addresses the following research questions:
 
-1. **RQ1: What are the predominant artifact categories in test-scope dependencies?**  
-   - Categorization of test-related libraries (e.g., mocking, logging, testing frameworks).
-   - Distribution analysis of tags retrieved from Maven Central.
+1. **RQ1: What are the most common artifact categories associated with test-scope dependencies in the Maven ecosystem?**  
+    - Rationale: This question investigates the frequent types of libraries used for testing purposes and their distribution in the ecosystem.
 
-2. **RQ2: Is there a correlation between the number of dependencies and the number of CVEs?**  
-   - Quantitative analysis of dependency count versus CVE exposure.
+2. **RQ2: How do dependencies within test-scope artifacts correlate with the number of CVEs?**
+    - Rationale: This question investigates how the presence of certain dependencies within test-scope artifacts might relate to security vulnerabilities (CVEs).
 
-3. **RQ3: Do test-scope dependencies follow different security trends compared to other scopes?**  
-   - Comparative boxplots and scatter plots.
-   - Exploration of artifact popularity versus risk.
+3. **RQ3: Does a higher number of dependencies in test-scope artifacts result in a higher number of CVEs?**
+    - Rationale: This question investigates whether projects with more test-scope dependencies tend to have more vulnerabilities.
+
+4. **RQ4: Are there certain artifact categories within the test scope that tend to have fewer security vulnerabilities (CVEs)?**
+    - Rationale: This question investigates whether some categories of test-scope libraries are more secure than others.
+
+5. **RQ5: How do the dependencies within test-scope artifacts impact the vulnerability profile of software projects using them?**
+    - Rationale: This question investigates the overall effect that test-scope dependencies have on the vulnerability landscape of projects that utilize them.
 
 ---
 
@@ -39,11 +43,8 @@ This study addresses the following research questions:
 2. **Artifact Extraction**  
    - A complete list of Maven artifacts and their associated dependency scopes was retrieved using Goblin.
    - Focus was placed on artifacts linked to the `test` scope.
-
-3. **Tag Enrichment**  
-   - A Selenium-based script was used to scrape `sonar.typetag` labels from [mvnrepository.com](https://mvnrepository.com), covering ~650,000 artifacts.
-
-4. **Metric Weaving**  
+ 
+3. **Metric Weaving**  
    - Goblin Weaver was used to compute:
      - Direct CVEs (`CVE`)
      - Aggregated CVEs (`CVE_AGGREGATED`)
@@ -63,23 +64,4 @@ This study addresses the following research questions:
   - Produced boxplots, scatter plots, and time series graphs.
   - Correlated CVE count, dependency popularity, and release timeline.
 
----
 
-## 📁 Repository Structure
-
-```bash
-├── data/
-│   ├── raw/                  # Extracted raw data from Goblin
-│   ├── enriched/             # CVE-enriched CSVs with tags
-│   └── figures/              # All plots used in the paper
-│
-├── scripts/
-│   ├── selenium_scraper.py   # Script to mine tags from mvnrepository
-│   ├── goblin_query.ipynb    # Jupyter notebook for graph queries
-│   └── analysis.ipynb        # Final plots and statistical analysis
-│
-├── imgs/
-│   ├── methodology.png
-│   └── scope_analysis.png
-│
-└── README.md
